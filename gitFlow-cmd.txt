@@ -1,0 +1,16 @@
+/* Git flow */
+
+// After creating the main branch create a dev branch
+git branch dev
+
+// push the dev branch
+git push -u origin dev
+
+// Initialise git flow
+git flow init
+
+// confirm pushing the dev branch
+git push --set-upstream origin dev
+
+// Create your new branch
+git checkout -b add-quotes
